@@ -2,7 +2,6 @@
 
 Este é um sistema simples de biblioteca, desenvolvido em Java, com persistência de dados utilizando SQLite e arquitetura baseada em DAO (Data Access Object).
 
----
 
 ## 🚀 Funcionalidades
 
@@ -11,7 +10,6 @@ Este é um sistema simples de biblioteca, desenvolvido em Java, com persistênci
 - Conexão com banco de dados SQLite
 - Separação entre camadas (`model`, `repository`, etc)
 
----
 
 ## 🛠 Tecnologias Utilizadas
 
@@ -20,7 +18,6 @@ Este é um sistema simples de biblioteca, desenvolvido em Java, com persistênci
 - JDBC
 - Padrão DAO
 
----
 
 ## 📁 Estrutura de Pastas
 
@@ -35,3 +32,4 @@ src/
 │   └── ConexaoSQLite.java
 │   └── UsuarioDAO.java
 │   └── TabelaUsuario.java
+
