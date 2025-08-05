@@ -1,18 +1,37 @@
-## Getting Started
+# 📚 Sistema de Biblioteca em Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este é um sistema simples de biblioteca, desenvolvido em Java, com persistência de dados utilizando SQLite e arquitetura baseada em DAO (Data Access Object).
 
-## Folder Structure
+---
 
-The workspace contains two folders by default, where:
+## 🚀 Funcionalidades
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- Cadastro de usuários
+- Cadastro de livros
+- Conexão com banco de dados SQLite
+- Separação entre camadas (`model`, `repository`, etc)
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+---
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## 🛠 Tecnologias Utilizadas
 
-## Dependency Management
+- Java 17
+- SQLite
+- JDBC
+- Padrão DAO
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+---
+
+## 📁 Estrutura de Pastas
+
+```bash
+src/
+├── Main.java
+├── Biblioteca.java
+├── model/
+│   └── Livro.java
+│   └── Usuario.java
+├── repository/
+│   └── ConexaoSQLite.java
+│   └── UsuarioDAO.java
+│   └── TabelaUsuario.java
